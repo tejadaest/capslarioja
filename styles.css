@@ -1,0 +1,90 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: hsl(332, 98%, 52%);
+  color: lab(2.55% 0.4 -0.29);
+} 
+h1, h2, h3 {
+  color: hsl(60, 4%, 5%);
+}
+.card {
+  border-radius: 12px;
+}
+:focus {
+  outline: 3px solid lch(4.63% 0.67 256.75 / 0.897);
+  outline-offset: 2px;
+}
+.navbar {
+  background-color: hwb(170 96% 2%) !important; 
+}
+
+.navbar .nav-link {
+  color: hsl(0, 4%, 5%) !important; 
+}
+
+.navbar .nav-link:hover {
+  color: hsl(320, 97%, 57%) !important; 
+}
+.btn-primary {
+  background-color: hsl(0, 0%, 4%); 
+  border-color: hsl(0, 0%, 3%);
+}
+
+.btn-primary:hover {
+  background-color: #f31a98; 
+  border-color: hsl(313, 90%, 53%);
+}
+h1, h2, h3 {
+  color: hwb(240 9% 89%);
+}
+.carousel-item img {
+  height: 400px;        
+  object-fit: cover;    
+}
+.carousel-caption h5 {
+  color: hsl(40, 18%, 3%); 
+  font-weight: bold;
+}
+
+.carousel-caption p {
+  color: hsl(0, 3%, 6%); 
+  font-size: 1.2rem;
+}
+.carousel-caption h5 {
+  font-family: 'Georgia', serif; 
+}
+
+.carousel-caption p {
+  font-family: 'calibri', sans-serif; 
+}
+
+
+.navbar-brand {
+  color: hsl(0, 0%, 8%) !important;   
+  font-weight: bold;
+  font-size: 1.5rem;           
+  font-family: 'Roboto', sans-serif; 
+}
+
+
+.footer-custom {
+  background-color: lab(98.8% -2.29 -0.81) !important; 
+  color: hsl(0, 19%, 11%) !important;           
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem;
+}
+
+.footer-custom p {
+  margin: 0;
+}
+
+/* tamaño de imágenes de médicos */
+.card-img-top {
+  height: 250px;      
+  object-fit: cover;  
+}
+
+
+
+
+
+

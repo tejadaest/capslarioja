@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Médicos - Centro Salud La Rioja</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="index.html">Centro Salud La Rioja</a>
+    </div>
+  </nav>
+
+  <main class="container my-5">
+    <h1>Equipo médico</h1>
+    <label for="especialidadSelect" class="form-label">Especialidad</label>
+    <select id="especialidadSelect" class="form-select"></select>
+    <div id="medicosList" class="row g-3 mt-3"></div>
+  </main>
+<div class="row g-4 mt-3">
+  <!-- Médico 1 -->
+  <div class="col-md-4">
+    <div class="card h-100">
+      <img src="pediatra.jpeg" class="card-img-top" alt="Dr. Juan Pérez">
+      <div class="card-body text-center">
+        <h5 class="card-title">Dra. Laura Perez</h5>
+        <p class="card-text">Pediatra</p>
+      </div>
+      <div class="card-footer text-center">
+      </div>
+    </div>
+  </div>
+
+  <!-- Médico 2 -->
+  <div class="col-md-4">
+    <div class="card h-100">
+      <img src="clinico.jpeg" class="card-img-top" alt="Dra. María López">
+      <div class="card-body text-center">
+        <h5 class="card-title">Dr. Pedro Gomez</h5>
+        <p class="card-text">Clinico General</p>
+      </div>
+      <div class="card-footer text-center">
+      </div>
+    </div>
+  </div>
+
+  <!-- Médico 3 -->
+  <div class="col-md-4">
+    <div class="card h-100">
+      <img src="gineco.jpeg" class="card-img-top" alt="Dr. Carlos Gómez">
+      <div class="card-body text-center">
+        <h5 class="card-title">Dra. Monica Ruiz</h5>
+        <p class="card-text">Ginecologa</p>
+      </div>
+      <div class="card footer text-center">
+      </div>
+    </div>
+  </div>
+
+  <footer class="bg-light text-center py-3">
+    <p class="mb-0">© <span id="year2"></span> Centro de Atención Primaria</p>
+  </footer>
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
